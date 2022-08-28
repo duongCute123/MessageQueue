@@ -1,0 +1,17 @@
+package hellper;
+
+public class XMLConver<T> {
+	private T type;
+
+	public XMLConver(T type) {
+		this.type = type;
+	}
+	@SuppressWarnings("all")
+	public T xml2Oject(String xml) throws Exception {
+		T sv = null;
+		JAXBContex ctx = JAXBContext.newIntance(type.getClass());
+
+		return type;
+
+	}
+}
